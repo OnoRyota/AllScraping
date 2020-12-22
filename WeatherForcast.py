@@ -27,7 +27,7 @@ fetched_daraframes[0].to_json('NakatuForcast.json',force_ascii=True)
 ######################################################################################
 
 #豊後高田
-url_bunngotakada = 'https://tenki.jp/forecast/9/47/8320/44209/'
+url_bungotakada = 'https://tenki.jp/forecast/9/47/8320/44209/'
 
 #urlを読み取る
 fetched_daraframes = pandas.io.html.read_html(url_bungotakada)
