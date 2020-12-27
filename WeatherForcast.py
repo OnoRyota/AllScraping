@@ -52,7 +52,7 @@ fetched_daraframes[0].to_json('KitukiForcast.json',force_ascii=True)
 url_innai = 'https://tenki.jp/forecast/9/47/8320/44211/'
 
 #urlを読み取る
-fetched_daraframes = pandas.io.html.read_html(url_innaii)
+fetched_daraframes = pandas.io.html.read_html(url_innai)
 
 #jsonで保存
 fetched_daraframes[0].to_json('InnaiForcast.json',force_ascii=True)
