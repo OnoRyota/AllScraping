@@ -11,7 +11,7 @@ url_kunimi = 'https://tenki.jp/forecast/9/47/8320/44214/'
 fetched_daraframes = pandas.io.html.read_html(url_kunimi)
 
 #jsonで保存
-fetched_daraframes[0].to_json('KunimiForcast.json',force_ascii=True)
+fetched_daraframes[0].to_json('KunimiForcast.json',force_ascii=False)
 
 ######################################################################################
 
@@ -22,7 +22,7 @@ url_nakatu = 'https://tenki.jp/forecast/9/47/8320/44214/'
 fetched_daraframes = pandas.io.html.read_html(url_nakatu)
 
 #jsonで保存
-fetched_daraframes[0].to_json('NakatuForcast.json',force_ascii=True)
+fetched_daraframes[0].to_json('NakatuForcast.json',force_ascii=False)
 
 ######################################################################################
 
@@ -33,7 +33,7 @@ url_bungotakada = 'https://tenki.jp/forecast/9/47/8320/44209/'
 fetched_daraframes = pandas.io.html.read_html(url_bungotakada)
 
 #jsonで保存
-fetched_daraframes[0].to_json('BungotakadaForcast.json',force_ascii=True)
+fetched_daraframes[0].to_json('BungotakadaForcast.json',force_ascii=False)
 
 ######################################################################################
 
@@ -44,7 +44,7 @@ url_kituki = 'https://tenki.jp/forecast/9/47/8310/44210/'
 fetched_daraframes = pandas.io.html.read_html(url_kituki)
 
 #jsonで保存
-fetched_daraframes[0].to_json('KitukiForcast.json',force_ascii=True)
+fetched_daraframes[0].to_json('KitukiForcast.json',force_ascii=False)
 
 ######################################################################################
 
@@ -52,10 +52,10 @@ fetched_daraframes[0].to_json('KitukiForcast.json',force_ascii=True)
 url_innai = 'https://tenki.jp/forecast/9/47/8320/44211/'
 
 #urlを読み取る
-fetched_daraframes = pandas.io.html.read_html(url_innai)
+fetched_daraframes = pandas.io.html.read_html(url_innaii)
 
 #jsonで保存
-fetched_daraframes[0].to_json('InnaiForcast.json',force_ascii=True)
+fetched_daraframes[0].to_json('InnaiForcast.json',force_ascii=False)
 
 ######################################################################################
 
@@ -66,7 +66,7 @@ url_kusu = 'https://tenki.jp/forecast/9/47/8330/44462/'
 fetched_daraframes = pandas.io.html.read_html(url_kusu)
 
 #jsonで保存
-fetched_daraframes[0].to_json('KusuForcast.json',force_ascii=True)
+fetched_daraframes[0].to_json('KusuForcast.json',force_ascii=False)
 
 ######################################################################################
 
@@ -77,7 +77,7 @@ url_yuhuin = 'https://tenki.jp/forecast/9/47/8310/44213/'
 fetched_daraframes = pandas.io.html.read_html(url_yuhuin)
 
 #jsonで保存
-fetched_daraframes[0].to_json('YuhuinForcast.json',force_ascii=True)
+fetched_daraframes[0].to_json('YuhuinForcast.json',force_ascii=False)
 
 ######################################################################################
 
@@ -88,7 +88,7 @@ url_taketa = 'https://tenki.jp/forecast/9/47/8330/44208/'
 fetched_daraframes = pandas.io.html.read_html(url_taketa)
 
 #jsonで保存
-fetched_daraframes[0].to_json('TaketaForcast.json',force_ascii=True)
+fetched_daraframes[0].to_json('TaketaForcast.json',force_ascii=False)
 
 ######################################################################################
 
@@ -99,7 +99,7 @@ url_inukai = 'https://tenki.jp/forecast/9/47/8340/44212/'
 fetched_daraframes = pandas.io.html.read_html(url_inukai)
 
 #jsonで保存
-fetched_daraframes[0].to_json('InukaiForcast.json',force_ascii=True)
+fetched_daraframes[0].to_json('InukaiForcast.json',force_ascii=False)
 
 ######################################################################################
 
@@ -110,7 +110,7 @@ url_ume = 'https://tenki.jp/forecast/9/47/8340/44205/'
 fetched_daraframes = pandas.io.html.read_html(url_ume)
 
 #jsonで保存
-fetched_daraframes[0].to_json('UmeForcast.json',force_ascii=True)
+fetched_daraframes[0].to_json('UmeForcast.json',force_ascii=False)
 
 ######################################################################################
 
@@ -121,7 +121,7 @@ url_saiki = 'https://tenki.jp/forecast/9/47/8340/44205/'
 fetched_daraframes = pandas.io.html.read_html(url_saiki)
 
 #jsonで保存
-fetched_daraframes[0].to_json('SaikiForcast.json',force_ascii=True)
+fetched_daraframes[0].to_json('SaikiForcast.json',force_ascii=False)
 
 ######################################################################################
 
@@ -132,4 +132,4 @@ url_kamae = 'https://tenki.jp/forecast/9/47/8340/44205/'
 fetched_daraframes = pandas.io.html.read_html(url_kamae)
 
 #jsonで保存
-fetched_daraframes[0].to_json('kamaeForcast.json',force_ascii=True)
+fetched_daraframes[0].to_json('kamaeForcast.json',force_ascii=False)
