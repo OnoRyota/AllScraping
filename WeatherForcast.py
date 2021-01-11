@@ -52,7 +52,7 @@ kituki[0].to_json('KitukiForcast.json',force_ascii=False)
 url_innai = 'https://weather.yahoo.co.jp/weather/44/8320/44211.html'
 
 #urlを読み取る
-innai = pandas.io.html.read_html(url_innaii)
+innai = pandas.io.html.read_html(url_innai)
 
 #jsonで保存
 innai[0].to_json('InnaiForcast.json',force_ascii=False)
