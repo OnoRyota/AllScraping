@@ -5,131 +5,131 @@ import requests
 from bs4 import BeautifulSoup
 
 #国見
-url_kunimi = 'https://tenki.jp/forecast/9/47/8320/44214/'
+url_kunimi = 'https://weather.yahoo.co.jp/weather/jp/44/8320/44214.html'
 
 #urlを読み取る
-fetched_daraframes = pandas.io.html.read_html(url_kunimi)
+kunimi = pandas.io.html.read_html(url_kunimi)
 
 #jsonで保存
-fetched_daraframes[0].to_json('KunimiForcast.json',force_ascii=True)
+kunimi[4].to_json('KunimiForcast.json',force_ascii=False)
 
 ######################################################################################
 
 #中津
-url_nakatu = 'https://tenki.jp/forecast/9/47/8320/44214/'
+url_nakatu = 'https://weather.yahoo.co.jp/weather/44/8320/44203.html'
 
 #urlを読み取る
-fetched_daraframes = pandas.io.html.read_html(url_nakatu)
+nakatu = pandas.io.html.read_html(url_nakatu)
 
 #jsonで保存
-fetched_daraframes[0].to_json('NakatuForcast.json',force_ascii=True)
+nakatu[4].to_json('NakatuForcast.json',force_ascii=False)
 
 ######################################################################################
 
 #豊後高田
-url_bungotakada = 'https://tenki.jp/forecast/9/47/8320/44209/'
+url_bungotakada = 'https://weather.yahoo.co.jp/weather/44/8320/44209.html'
 
 #urlを読み取る
-fetched_daraframes = pandas.io.html.read_html(url_bungotakada)
+bungotakada = pandas.io.html.read_html(url_bungotakada)
 
 #jsonで保存
-fetched_daraframes[0].to_json('BungotakadaForcast.json',force_ascii=True)
+bungotakada[4].to_json('BungotakadaForcast.json',force_ascii=False)
 
 ######################################################################################
 
 #杵築
-url_kituki = 'https://tenki.jp/forecast/9/47/8310/44210/'
+url_kituki = 'https://weather.yahoo.co.jp/weather/44/8310/44210.html'
 
 #urlを読み取る
-fetched_daraframes = pandas.io.html.read_html(url_kituki)
+kituki = pandas.io.html.read_html(url_kituki)
 
 #jsonで保存
-fetched_daraframes[0].to_json('KitukiForcast.json',force_ascii=True)
+kituki[4].to_json('KitukiForcast.json',force_ascii=False)
 
 ######################################################################################
 
 #院内
-url_innai = 'https://tenki.jp/forecast/9/47/8320/44211/'
+url_innai = 'https://weather.yahoo.co.jp/weather/44/8320/44211.html'
 
 #urlを読み取る
-fetched_daraframes = pandas.io.html.read_html(url_innai)
+innai = pandas.io.html.read_html(url_innai)
 
 #jsonで保存
-fetched_daraframes[0].to_json('InnaiForcast.json',force_ascii=True)
+innai[4].to_json('InnaiForcast.json',force_ascii=False)
 
 ######################################################################################
 
 #玖珠
-url_kusu = 'https://tenki.jp/forecast/9/47/8330/44462/'
+url_kusu = 'https://weather.yahoo.co.jp/weather/44/8330/44462.html'
 
 #urlを読み取る
-fetched_daraframes = pandas.io.html.read_html(url_kusu)
+kusu = pandas.io.html.read_html(url_kusu)
 
 #jsonで保存
-fetched_daraframes[0].to_json('KusuForcast.json',force_ascii=True)
+kusu[4].to_json('KusuForcast.json',force_ascii=False)
 
 ######################################################################################
 
 #湯布院
-url_yuhuin = 'https://tenki.jp/forecast/9/47/8310/44213/'
+url_yuhuin = 'https://weather.yahoo.co.jp/weather/44/8310/44213.html'
 
 #urlを読み取る
-fetched_daraframes = pandas.io.html.read_html(url_yuhuin)
+yuhuin = pandas.io.html.read_html(url_yuhuin)
 
 #jsonで保存
-fetched_daraframes[0].to_json('YuhuinForcast.json',force_ascii=True)
+yuhuin[4].to_json('YuhuinForcast.json',force_ascii=False)
 
 ######################################################################################
 
 #竹田
-url_taketa = 'https://tenki.jp/forecast/9/47/8330/44208/'
+url_taketa = 'https://weather.yahoo.co.jp/weather/44/8330/44208.html'
 
 #urlを読み取る
-fetched_daraframes = pandas.io.html.read_html(url_taketa)
+taketa = pandas.io.html.read_html(url_taketa)
 
 #jsonで保存
-fetched_daraframes[0].to_json('TaketaForcast.json',force_ascii=True)
+taketa[4].to_json('TaketaForcast.json',force_ascii=False)
 
 ######################################################################################
 
 #犬飼
-url_inukai = 'https://tenki.jp/forecast/9/47/8340/44212/'
+url_inukai = 'https://weather.yahoo.co.jp/weather/44/8340/44212.html'
 
 #urlを読み取る
-fetched_daraframes = pandas.io.html.read_html(url_inukai)
+inukai = pandas.io.html.read_html(url_inukai)
 
 #jsonで保存
-fetched_daraframes[0].to_json('InukaiForcast.json',force_ascii=True)
+inukai[4].to_json('InukaiForcast.json',force_ascii=False)
 
 ######################################################################################
 
 #宇目
-url_ume = 'https://tenki.jp/forecast/9/47/8340/44205/'
+url_ume = 'https://weather.yahoo.co.jp/weather/44/8340/44205.html'
 
 #urlを読み取る
-fetched_daraframes = pandas.io.html.read_html(url_ume)
+ume = pandas.io.html.read_html(url_ume)
 
 #jsonで保存
-fetched_daraframes[0].to_json('UmeForcast.json',force_ascii=True)
+ume[4].to_json('UmeForcast.json',force_ascii=False)
 
 ######################################################################################
 
 #佐伯
-url_saiki = 'https://tenki.jp/forecast/9/47/8340/44205/'
+url_saiki = 'https://weather.yahoo.co.jp/weather/44/8340/44205.html'
 
 #urlを読み取る
-fetched_daraframes = pandas.io.html.read_html(url_saiki)
+saiki = pandas.io.html.read_html(url_saiki)
 
 #jsonで保存
-fetched_daraframes[0].to_json('SaikiForcast.json',force_ascii=True)
+saiki[4].to_json('SaikiForcast.json',force_ascii=False)
 
 ######################################################################################
 
 #蒲江
-url_kamae = 'https://tenki.jp/forecast/9/47/8340/44205/'
+url_kamae = 'https://weather.yahoo.co.jp/weather/44/8340/44205.html'
 
 #urlを読み取る
-fetched_daraframes = pandas.io.html.read_html(url_kamae)
+kamae = pandas.io.html.read_html(url_kamae)
 
 #jsonで保存
-fetched_daraframes[0].to_json('kamaeForcast.json',force_ascii=True)
+kamae[4].to_json('kamaeForcast.json',force_ascii=False)
