@@ -11,7 +11,7 @@ url_kunimi = 'https://weather.yahoo.co.jp/weather/jp/44/8320/44214.html'
 kunimi = pandas.io.html.read_html(url_kunimi)
 
 #jsonで保存
-kunimi[4].to_json('KunimiForcast.json',force_ascii=False)
+kunimi[3].to_json('KunimiForcast.json',force_ascii=False)
 
 ######################################################################################
 
@@ -22,7 +22,7 @@ url_nakatu = 'https://weather.yahoo.co.jp/weather/44/8320/44203.html'
 nakatu = pandas.io.html.read_html(url_nakatu)
 
 #jsonで保存
-nakatu[4].to_json('NakatuForcast.json',force_ascii=False)
+nakatu[3].to_json('NakatuForcast.json',force_ascii=False)
 
 ######################################################################################
 
@@ -33,7 +33,7 @@ url_bungotakada = 'https://weather.yahoo.co.jp/weather/44/8320/44209.html'
 bungotakada = pandas.io.html.read_html(url_bungotakada)
 
 #jsonで保存
-bungotakada[4].to_json('BungotakadaForcast.json',force_ascii=False)
+bungotakada[3].to_json('BungotakadaForcast.json',force_ascii=False)
 
 ######################################################################################
 
@@ -44,7 +44,7 @@ url_kituki = 'https://weather.yahoo.co.jp/weather/44/8310/44210.html'
 kituki = pandas.io.html.read_html(url_kituki)
 
 #jsonで保存
-kituki[4].to_json('KitukiForcast.json',force_ascii=False)
+kituki[3].to_json('KitukiForcast.json',force_ascii=False)
 
 ######################################################################################
 
@@ -55,7 +55,7 @@ url_innai = 'https://weather.yahoo.co.jp/weather/44/8320/44211.html'
 innai = pandas.io.html.read_html(url_innai)
 
 #jsonで保存
-innai[4].to_json('InnaiForcast.json',force_ascii=False)
+innai[3].to_json('InnaiForcast.json',force_ascii=False)
 
 ######################################################################################
 
@@ -66,7 +66,7 @@ url_kusu = 'https://weather.yahoo.co.jp/weather/44/8330/44462.html'
 kusu = pandas.io.html.read_html(url_kusu)
 
 #jsonで保存
-kusu[4].to_json('KusuForcast.json',force_ascii=False)
+kusu[3].to_json('KusuForcast.json',force_ascii=False)
 
 ######################################################################################
 
@@ -77,7 +77,7 @@ url_yuhuin = 'https://weather.yahoo.co.jp/weather/44/8310/44213.html'
 yuhuin = pandas.io.html.read_html(url_yuhuin)
 
 #jsonで保存
-yuhuin[4].to_json('YuhuinForcast.json',force_ascii=False)
+yuhuin[3].to_json('YuhuinForcast.json',force_ascii=False)
 
 ######################################################################################
 
@@ -88,7 +88,7 @@ url_taketa = 'https://weather.yahoo.co.jp/weather/44/8330/44208.html'
 taketa = pandas.io.html.read_html(url_taketa)
 
 #jsonで保存
-taketa[4].to_json('TaketaForcast.json',force_ascii=False)
+taketa[3].to_json('TaketaForcast.json',force_ascii=False)
 
 ######################################################################################
 
@@ -99,7 +99,7 @@ url_inukai = 'https://weather.yahoo.co.jp/weather/44/8340/44212.html'
 inukai = pandas.io.html.read_html(url_inukai)
 
 #jsonで保存
-inukai[4].to_json('InukaiForcast.json',force_ascii=False)
+inukai[3].to_json('InukaiForcast.json',force_ascii=False)
 
 ######################################################################################
 
@@ -110,7 +110,7 @@ url_ume = 'https://weather.yahoo.co.jp/weather/44/8340/44205.html'
 ume = pandas.io.html.read_html(url_ume)
 
 #jsonで保存
-ume[4].to_json('UmeForcast.json',force_ascii=False)
+ume[3].to_json('UmeForcast.json',force_ascii=False)
 
 ######################################################################################
 
@@ -121,7 +121,7 @@ url_saiki = 'https://weather.yahoo.co.jp/weather/44/8340/44205.html'
 saiki = pandas.io.html.read_html(url_saiki)
 
 #jsonで保存
-saiki[4].to_json('SaikiForcast.json',force_ascii=False)
+saiki[3].to_json('SaikiForcast.json',force_ascii=False)
 
 ######################################################################################
 
@@ -132,4 +132,4 @@ url_kamae = 'https://weather.yahoo.co.jp/weather/44/8340/44205.html'
 kamae = pandas.io.html.read_html(url_kamae)
 
 #jsonで保存
-kamae[4].to_json('kamaeForcast.json',force_ascii=False)
+kamae[3].to_json('kamaeForcast.json',force_ascii=False)
